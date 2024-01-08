@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Logo_enise.gif</file>
+        <file>Open_Source_Initiative_keyhole.svg.png</file>
+        <file>archlinux-icon-crystal-128.png</file>
+        <file>arch-tux_normal.png</file>
+        <file>b_1_q_0_p_0.jpg.png</file>
+        <file>b_1_q_0_p_2.jpg.png</file>
+        <file>square.png</file>
+        <file>scie.png</file>
+        <file>sinus.png</file>
+        <file>echelon.png</file>
+        <file>rampe.png</file>
+        <file>triangle.png</file>
+        <file>acq.jpg</file>
+        <file>Centrale_Enise.png</file>
+    </qresource>
+</RCC>

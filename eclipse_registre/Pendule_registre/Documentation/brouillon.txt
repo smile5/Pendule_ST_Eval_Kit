@@ -1,0 +1,80 @@
+test asservissement en vitesse simple boucle PID:
+gain=0.0015,gain_d=40e-5,gain_i=10e-9;
+P=0.0015
+I=10e-9
+D=40e-5
+A peut pret fonctionnel.
+
+
+
+
+
+//		   while( !( USART2->SR & USART_SR_RXNE ) ) {};
+		//		   	   rxb = USART2->DR;
+		//printf( "COUNT : %lu\r\n", TIM3->CNT);
+		//while( !( USART2->SR & USART_SR_TXE ) ) {};
+		//      USART2->DR = rxb+2;
+
+		//
+		//		for(i=0;i<60000;i++)
+		//		{
+		//			// GPIOA->ODR |= GPIO_ODR_OD5;
+		//
+		//			GPIOC->BSRR |= (1<<7);
+		//			//__ASM volatile ("NOP");
+		//			__asm__("nop");
+		//			asm volatile("nop");
+		//			asm volatile("nop");
+		//			asm volatile("nop");
+		//			__asm__("nop");
+		//			//delay_ms(1);
+		//			GPIOC->BSRR |= (1<<7)<<16;
+		//			// GPIOA->ODR &=~ GPIO_ODR_OD5;
+		//			delay_ms(1);
+		//		}
+		//		//		    for(i=0;i<200;i++)
+		//		//		    		    {
+		//		//		    		  // GPIOA->ODR |= GPIO_ODR_OD5;
+		//		//		    		    	GPIOA->BSRR |= (1<<8)<<16;
+		//		//		    		    	GPIOC->BSRR |= (1<<7);
+		//		//		    		    	delay_ms(1);
+		//		//		    		    	GPIOC->BSRR |= (1<<7)<<16;
+		//		//		    		  // GPIOA->ODR &=~ GPIO_ODR_OD5;
+		//		//		    		    	delay_ms(1);
+		//		//		    		    }
+		//		L6474_Disable();
+		//		sstep++;
+		//		//		if (sstep==1)
+		//		//		{
+		//		//			mpas=1;
+		//		//		}
+		//		//		else if (sstep==2)
+		//		//		{
+		//		//			mpas=2;
+		//		//		}
+		//		//		else if (sstep==3)
+		//		//		{
+		//		//			mpas=4;
+		//		//		}
+		//		//		else if (sstep==4)
+		//		//		{
+		//		//			mpas=8;
+		//		//		}
+		//		//		else if (sstep==5)
+		//		//		{
+		//		//				mpas=16;
+		//		//		}
+		//		//		else
+		//		//		{
+		//		//			sstep=0;
+		//		//			mpas=0;
+		//		//		}
+		//		//L6474_SetStepSize(mpas);
+		
+		
+		
+		
+		
+		
+				//		pos=L6474_GetABSPOS();
+		//		curr=L6474_GetTVAL();
